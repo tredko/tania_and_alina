@@ -1,0 +1,9 @@
+# le code qui compte le nombre de lettres dans la phrase
+phrase = "bonjour ma cherie! ca va? je suis en train d utiliser Git Hub"
+tous_les_caracteres = [p for p in phrase]
+nombre_lettres = 0
+for c in tous_les_caracteres:
+    if c not in [' ', '!', ',','?',':', '.',';','-']
+        nombre_lettres = nombre_lettres + 1
+
+print(nombre_lettres)
