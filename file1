@@ -1,9 +1,31 @@
-# le code qui compte le nombre de lettres dans la phrase
-phrase = "bonjour ma cherie! ca va? je suis en train d utiliser Git Hub"
-tous_les_caracteres = [p for p in phrase]
-nombre_lettres = 0
-for c in tous_les_caracteres:
-    if c not in [' ', '!', ',','?',':', '.',';','-']
-        nombre_lettres = nombre_lettres + 1
 
-print(nombre_lettres)
+
+
+k=0
+c=0
+text=str("bonjour baboub")
+while k<=(len(text)-1):
+    if text[k]==" ":
+        c+=1
+    k+=1
+
+print(c)
+
+j=0
+s=0
+text=str("bonjour baboub  ")
+for k in text:
+    if k==" ":
+        s=s-1
+    s=s+1
+print(s)
+
+somme_lettres=s-c
+print(somme_lettres)
+
+mot = str('Quelle bell journee')
+cpt = 0
+for n in mot:
+    cpt+=1
+
+print (cpt)
